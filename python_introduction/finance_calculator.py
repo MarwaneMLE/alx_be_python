@@ -1,7 +1,6 @@
-monthly_income = input("our monthly income: ")
+monthly_income = input("Enter your monthly income: ")
 monthly_expences = input("Enter your total monthly expenses: ")
 monthly_saving = int(monthly_income) - int(monthly_expences)
-rate = 0.05
 
 project_savings = monthly_saving * 12 + (monthly_saving * 12 * 0.05)
 
