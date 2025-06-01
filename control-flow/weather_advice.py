@@ -1,5 +1,6 @@
-current_weather = input(f"What's the weather like today? (sunny/rainy/cold):").lower()
+#!/usr/bin/env python3
 
+current_weather = input(f"What's the weather like today? (sunny/rainy/cold):").lower()
 if current_weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif current_weather == "rainy":
