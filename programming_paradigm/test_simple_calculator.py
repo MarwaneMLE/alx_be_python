@@ -19,15 +19,15 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(8, -3), 11)
         self.assertEqual(self.calc.subtract(-8, -3), -5)
 
-    def test_multiply(self):
-        """Test the subtract methode"""
+    def test_multiplication(self):
+        """Test the multiplication methode"""
         self.assertEqual(self.calc.multiply(10, 3), 30)
         self.assertEqual(self.calc.multiply(-8, 3), -24)
         self.assertEqual(self.calc.multiply(8, -3), -24)
         self.assertEqual(self.calc.multiply(-8, -3), 24)
     
-    def test_divide(self):
-        """Test the subtract methode"""
+    def test_division(self):
+        """Test the division  methode"""
         self.assertEqual(self.calc.divide(10, 3), 10/3)
         self.assertEqual(self.calc.divide(-8, 3), -8/3)
         self.assertEqual(self.calc.divide(8, -3), -8/3)
